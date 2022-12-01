@@ -1,0 +1,104 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="landing-page.css">
+    <script src="https://kit.fontawesome.com/5421c5e40e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+       <nav class="first">
+            <div class="logo">
+                <img src="images/WhatsApp_Image_2022-11-22_at_20.47 2.png" >
+            </div>
+            <div class="links">
+                <ul>
+                    <li>
+                        <a class="link" href="">ABOUT US</a>
+                    </li>
+                    <li>
+                    <a class="link" href="">SUPPORT</a>
+                    </li>
+                    <li>
+                        <a class="link" href="">CONTACT US</a>
+                    </li>
+                    <li class="green-butt">
+                        <a class="link" href="">GET STARTED</a>
+                    </li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </div>
+        </nav>
+    
+       <div class="flex header-text">
+            <div class="col-2">
+                <h1 class="message">Socialise, create and <br> get paid for your <br> content .</h1>
+                <p class="note">A decentalized token gated social media platform where you <br> can share about yourself and make money while at it .</p>
+                <div class="buttons">
+                    <button id="signup">SIGN UP</button>
+                    <button id="login">LOG IN</button>
+                </div>
+            </div>
+            <span class="col-1"><img src="images/Rectangle 10322.png"></span>
+       </div>
+       <hr>
+       <h3 id="what">What's More?</h3>
+       <div class="flex monetize">
+            <div class="col-1">
+                <img src="images/Rectangle 10323.png">
+            </div>
+            <div class="col-2">
+                <h4 id="about2">Monetize your content <br> & control your audience</h4>
+            </div>
+        </div>
+
+        <div class=" flex wallet">
+            <div class="col-2">
+                <h4 id="about3">Connect your wallet and enjoy the <br> security of decentralized system</h4>
+            </div>
+            <div class="col-1">
+                <span class="image2"><img src="images/Rectangle 10324.png"></span>
+            </div>
+        </div>
+
+        <div class="flex reward">
+            <div class="col-1">
+                <img src="images/Rectangle 10325.png">
+            </div>
+            <div class="col-2">
+                <h4 id="about4">Get rewarded for posting other <br> users content</h4>
+            </div>
+        </div>
+       <div class="reg">
+        <h4 class="last-message">Don't be told about socialite, experience it yourself! <br> Register for free! </h4>
+        <button class="green-butt">GET STARTED</button>
+       </div>
+       <div class="foot">
+        <div class="foot-first">
+            <img src="images/logo.png" alt="" class="logo">
+            <p>&copy; socialite 2022</p>
+        </div>
+        <div class="foot-second">
+            <p>Connect with us;</p>
+            <div class="social-icons">
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-twitter-square"></i></a>
+            </div>
+        </div>
+       </div>
+    </div>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right ="0";
+        }
+        function closemenu(){
+            sidemenu.style.right ="-200px";
+        }
+    </script>
+</body>
+</html>
