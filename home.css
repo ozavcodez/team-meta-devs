@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #000;
+}
+.side-bar {
+    width: 20%;
+    background-color: #00C4CC;
+    height: 100vh;
+    height: 100vh;
+    position: fixed;
+}
+
+.main {
+    margin-left: 20%;
+    height: auto;
+    width: 100%;
+}
+.cont{
+    width: 100%;
+    height: auto;
+   display: flex; 
+   align-items: flex-start;
+}
+ 
+.links:hover {
+    background-color: white;
+    border: 1px solid black;
+    width: 100%;
+    border-right-width: 10px;
+    border-top: none;
+    border-bottom: none;
+    border-bottom-right-radius: 10px;
+    color: black;
+} 
+.links a:hover  {
+    color: black;
+}
+
+.logo-cont {
+    width: 100%;
+    padding: 30px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.links_cont{
+    width: 100%;
+    white-space: nowrap;
+}
+  
+  .links{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 16px 30px;
+  }
+  
+  .links span{
+    margin-top: 3px;
+  }
+  
+  .links p{
+    margin-left: 8px;
+  }
+  .links a{
+    text-decoration: none;
+    color: white;
+  }
+
+
+/* Main body  */
+.main {
+    background-color: black;
+
+}
+
+nav{
+    margin: 20px auto ;
+    padding-right: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.left-child{
+    white-space: 12px;
+    display: inline-flex;
+    margin-left: 0.75rem; 
+    align-items: center;
+    font-size: 16px;
+}
+.left-child button{
+    margin-left: 10px;
+    padding:3px 20px;
+    border-radius: 7px;
+    background-color: #00C4CC;
+    color: whitesmoke;
+    font-size: 16px;
+}
+.left-child button:hover {
+    background-color: #00c5cca5;
+}
+
+.left-child img {
+    width: 50px;
+    padding-left: 10px; 
+}
+input{
+    outline: none;
+    border:none;
+    background-color: transparent;
+}
+.search{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    gap: 10px;
+    color: #000;
+    width: 90%; 
+    margin:30px auto;
+   
+}
+ .icon{
+    height: 20px;
+    width: 20px;
+}
+.wallet{
+    height: 63%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.username {
+    display: flex;
+    color: aliceblue;
+    justify-content: space-between;
+    align-items: center;
+    width:90%;
+    margin:auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+/*  */
+
