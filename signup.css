@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,8 +10,7 @@ body {
 }
 #username,
 #password,
-#discord,
-#wallet {
+#discord {
   width: 100%;
   padding: 10px 12px;
   margin: 25px 35px;
