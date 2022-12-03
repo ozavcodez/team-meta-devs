@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,8 +10,7 @@ body {
 }
 #username,
 #password,
-#discord,
-#wallet {
+#discord {
   width: 100%;
   padding: 10px 12px;
   margin: 25px 35px;
@@ -72,16 +71,3 @@ input::-webkit-input-placeholder {
   color: #00c4cc;
   text-align: center;
   font-size: 15px;
-}
-.wallet {
-  width: 100%;
-  padding: 10px 28px;
-  border-radius: 8px;
-  border: none;
-  color: #00c4cc;
-  font-size: 15px;
-}
-.wallet-1 {
-  padding-left: 80px;
-  margin: 12px 0;
-}

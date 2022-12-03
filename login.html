@@ -4,56 +4,41 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="login.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="signup.css" />
+    <title> Socialite- Login</title>
   </head>
-
   <body>
     <img
       src="./images/WhatsApp_Image_2022-11-22_at_20.47 2.png"
       alt="socialite logo"
     />
-    <section>
-      <div class="container">
-        <form action="">
-          <label for="wallet"></label>
-          <input
-            type=""
-            name="wallet"
-            id="wallet"
-            placeholder="Login with wallet address"
+
+    <section class="all">
+      <h1>Welcome to Socialite</h1>
+
+      <p>To join the community, you are required to hold some $ETH in your wallet. <br>
+        Make sure your metamask wallet is set to Ethereum mainnet, <br> 
+        then connect by clicking the button below.
+      </p>
+     
+     
+        <div class="btn"><button id="connect-button" class="btn-1">Connect Metamask Wallet</button></div>
+            <br />
+            <div class="btn"><button id="verify-balance" class="btn-1">Verify balance</button></div>
+            <br/>
+
+            <div class="btn"><button class="btn-1"> Connect with Discord (coming soon)</button></div>
           /><br />
-          <label for="discord"></label>
-          <input
-            type="text"
-            name="discord"
-            id="discord"
-            placeholder="Login with Discord username"
-          />
-          <h3 class="details">Enter your details to log in</h3>
-          <label for="email"></label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Email Address"
-          /><br />
-          <label for="password"></label>
-          <input
-            type="password"
-            name="password"
-            id="password"
-            placeholder="Password"
-          /><br />
-          <div class="remember">
-            <input type="checkbox" name="reminder" id="reminder" />
-            <label for="reminder">Remember Me</label>
+          <div class="kyc">
+            <input type="checkbox" name="checkbox" id="checkbox" />
+            <label for="kyc" class="try"
+              >Accept socialite KYC and policies</label
+            ><br />
           </div>
-          <div class="btn"><button class="btn-1">LOGIN</button></div>
-          <p class="forgot-password">Forgot password</p>
+          <div class="btn"><button class="btn-1">Join</button></div>
         </form>
       </div>
-      <p class="para">Do not have an account? Sign up</p>
     </section>
+    <script type="module" src="login.js"></script>
   </body>
 </html>
