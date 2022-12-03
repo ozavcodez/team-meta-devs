@@ -155,3 +155,8 @@ input{
 
 /*  */
 
+@media only screen and (max-width:600px){
+    .side-bar {
+        display: none;
+    } 
+}

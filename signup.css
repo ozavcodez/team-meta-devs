@@ -72,3 +72,16 @@ input::-webkit-input-placeholder {
   color: #00c4cc;
   text-align: center;
   font-size: 15px;
+}
+.wallet {
+  width: 100%;
+  padding: 10px 28px;
+  border-radius: 8px;
+  border: none;
+  color: #00c4cc;
+  font-size: 15px;
+}
+.wallet-1 {
+  padding-left: 80px;
+  margin: 12px 0;
+}

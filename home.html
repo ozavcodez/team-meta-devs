@@ -9,10 +9,11 @@
 </head>
     <body>
         <div class="cont">
-            <div class="side-bar">
+            <i class="fas fa-bars" onclick="openmenu()"></i>   
+            <div class="side-bar" id="menu">
                 <div class="logo-cont">
                     <img src="images/logo.png" alt="" class="logo">
-
+        
                     <i class="fas fa-times" onclick="closemenu()"></i>
                 </div>
                  <!--links-->
@@ -55,7 +56,6 @@
                             </span>
                         <a href=""><p>Profile</p></a>
                     </div>
-                    <i class="fas fa-bars" onclick="openmenu()"></i>   
                 </div>
             </div>
             <div class="main">
@@ -126,14 +126,7 @@
             </div>
         </div>
         
-        <script>
-            var sidemenu=document.getElementById("sidemenu");
-            function openmenu(){
-                sidemenu.style.right ="0";
-            }
-            function closemenu(){
-                sidemenu.style.right ="-200px";
-            }
+        <script src="sidebar.js">
         </script>
 </body>
 </html>
