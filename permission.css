@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #181717;
+    background-image: url(./images/Vector\ 3.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 1600px 650px;
+  }
+  .permission {
+    display: flex;
+  }
+  
+  .left-child button {
+    margin-left: 10px;
+    padding: 3px 20px;
+    border-radius: 7px;
+    background-color: #00c4cc;
+    color: whitesmoke;
+    font-size: 16px;
+    border: none;
+  }
+  .left-child {
+    margin: 40px 0;
+    margin-left: 80em;
+  }
+  .left-child button:hover {
+    background-color: #00c5cca5;
+  }
+  .para {
+    background: #fff;
+    height: 25px;
+    text-align: center;
+    justify-items: center;
+  }
+  
+  .text {
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  .permission {
+    color: #00c4cc;
+  }
+  
+  form {
+    padding-left: 40px;
+    font-size: 20px;
+    margin: 15px 0;
+    color: #fff;
+  }
+  #followers,
+  #discord,
+  #usdt,
+  #wallet,
+  #shiba,
+  #matic,
+  #mfollowers,
+  #wd {
+    margin: 20px 0;
+  }
+  .last-text {
+    color: #fff;
+    padding-left: 60px;
+    font-size: 20px;
+  }
