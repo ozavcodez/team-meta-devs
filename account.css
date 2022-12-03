@@ -1,0 +1,245 @@
+.container {
+    display: flex;
+    height: max-content;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #00C4CC;
+    height: 100vh;
+}
+.logo {
+    margin-left: 110px;
+}
+#logo {
+    width: 140px;
+}
+
+.profile {
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.profile img {
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+}
+.profile-name  {
+    font-weight: 600;
+    color: aliceblue;
+}
+.name {
+    font-size: 20px;
+    margin-top: 0px;
+}
+.intro {
+    margin-top: 10px;
+}
+.settings {
+    color: aliceblue;
+    width: 30px;
+}
+hr {
+    border-color: black;
+}
+
+nav {
+    font-size: 25px;
+    padding-left: 50px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+nav:hover {
+    padding-left: 50px;
+}
+nav a:hover {
+    color: black;
+    border: 1px solid white;
+}
+
+.left-icon {
+    width: 25px;
+    margin-right: 20px;
+}
+
+.right-icon {
+    width: 25px;
+    margin-left: 100px;
+    display: inline-block;
+}
+/* end of side bar */
+.main {
+    background-color: black;
+    width: 75%;
+}
+
+.top {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 70px;
+    justify-content: space-between;
+}
+.top-icon {
+    width: 30px;
+    color: aliceblue;
+    
+}
+.last-icon {
+    width: 30px;
+    color: aliceblue;
+    margin-top: 20px;
+}
+.info {
+    font-size: 35px;
+    color: aliceblue;
+    margin-left: 40px;
+}
+.confirm {
+    background-color: #00C4CC;
+    width: 140px;
+    height: 40px;
+    border-radius: 7px;
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.information {
+    display: flex;
+}
+
+.rule {
+    margin-top: 10px;
+    color: aliceblue;
+    border: 1px solid white;
+}
+.user-info {
+    display: flex;
+    color: white;
+    margin-left: 40px;
+    margin-right: 150px;
+    justify-content: space-between;
+}
+.user-message {
+    color: #00C4CC;
+    font-size: 20px;
+}
+
+.photo h3 {
+    margin-top: 35px;
+}
+.photo img {
+    width: 100px;
+    position: relative;
+}
+.photo svg {
+    width: 30px;
+    color: black;
+    background-color: #00C4CC;
+    border-radius: 50px;
+    border: 5px solid #00C4CC;
+    position: block;
+    margin-top: 60px;
+    margin-right: 70px;
+    padding : 1px;
+}
+
+/* Middle */
+.middle {
+    display: flex;
+    margin-top: 0px;
+    color: aliceblue;
+    justify-content: space-between;
+    margin-right: 150px;
+}
+
+/* Form */
+
+form {
+    margin-left: 40px;
+}
+.email {
+    display: block;
+}
+#email {
+    border: 1px solid white;
+    color: aliceblue;
+    background-color: black;
+    width: 550px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 8px;
+    padding-left: 5px;
+}
+
+#name {
+    border: 1px solid white;
+    color: aliceblue;
+    background-color: black;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 8px;
+    padding-left: 5px;
+    margin-left: 20px;
+}
+#address {
+    width: 180px;
+    height: 40px;
+    background-color: black;
+    border-radius: 7px;
+    border: 1px solid white;
+    font-size: 30px;
+    margin-right: 10px;
+}
+#prof {
+    width: 300px;
+    height: 40px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+/* Select */
+#interest {
+    margin-top: 15px;
+    width: 300px;
+    height: 40px;
+    background-color: black;
+    border: 1px solid #00C4CC;
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 7px;
+}
+select:hover {
+    background-color: #00C4CC;
+}
+
+#option {
+    background-color: black;
+    padding-bottom: 20px;
+}
+
+
+.gender {
+    margin-top: 230px;
+}
+.gender label {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+
+
+
+

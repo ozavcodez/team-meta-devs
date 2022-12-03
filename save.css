@@ -247,6 +247,12 @@ input{
     gap: 30px;
     padding-top: 30px ;
 }
+.green-butt{
+    background-color: #00C4CC;
+    border-radius: 10px;
+    padding: 20px;
+    color: #000000;
+}
 @media (max-width: 480px) {
     nav button{
         display: none;
