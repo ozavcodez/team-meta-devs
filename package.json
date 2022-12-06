@@ -1,0 +1,24 @@
+{
+  "name": "team-meta-devs",
+  "version": "1.0.0",
+  "description": "usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\r            [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\r            [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\r            [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\r            <command> [<args>]",
+  "main": "checkbalance.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beautifulozav/team-meta-devs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Beautifulozav/team-meta-devs/issues"
+  },
+  "homepage": "https://github.com/Beautifulozav/team-meta-devs#readme",
+  "dependencies": {
+    "alchemy-sdk": "^2.2.3",
+    "node-fetch": "^3.3.0"
+  }
+}
