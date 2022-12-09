@@ -75,7 +75,9 @@ body{
     text-decoration: none;
     color: white;
   }
-
+  .cont .fas{
+    display:none;
+}
 
 /* Main body  */
 .main {
@@ -97,6 +99,8 @@ nav{
     margin-left: 0.75rem; 
     align-items: center;
     font-size: 16px;
+    color:white;
+    gap:30px
 }
 .left-child button{
     margin-left: 10px;
@@ -111,8 +115,7 @@ nav{
 }
 
 .left-child img {
-    width: 50px;
-    padding-left: 10px; 
+    width: 60px;
 }
 input{
     outline: none;
@@ -134,11 +137,15 @@ input{
  .icon{
     height: 20px;
     width: 20px;
+    font-size: 25px;
 }
 .wallet{
-    height: 63%;
     margin: 0 auto;
-    padding: 0 10px;
+}
+.wallimg{
+    width: 900px;
+    margin-left:70px ;
+    /* padding: 100px; */
 }
 
 .username {
@@ -146,11 +153,53 @@ input{
     color: aliceblue;
     justify-content: space-between;
     align-items: center;
-    width:90%;
+    width:80%;
     margin:auto;
     padding-bottom: 10px;
     padding-top: 10px;
 
+}
+.remix-i{
+    display: flex;
+    align-content: center;
+    gap: 30px;
+    padding-top: 20px ;
+}
+.wall-action{
+    color:white;
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-left: 70px;
+
+}
+.wall-action p{
+    padding: 10px 0;
+}
+
+.wall-action p a{
+    text-decoration: none;
+    color: white;
+}
+.green-butt{
+    background-color: #00C4CC;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;  
+    margin-bottom: 10px; 
+}
+.not{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.noti{
+    height: 400px;
+}
+.not h4, .not p{
+    color:white;
+    font-size: 16px;
+    padding: 30px ;
 }
 
 /*  */
@@ -158,5 +207,34 @@ input{
 @media only screen and (max-width:600px){
     .side-bar {
         display: none;
+        z-index:10px;
+        width: auto;
     } 
+    nav{
+        padding-right: 10px;
+    }
+    .cont .fas{
+        display:block;
+        font-size:25px;
+        color: white;
+    }
+    .left-child{
+        gap:10px;
+    }
+    /* .cont .fas.fa-bars{
+        color:#00C4CC;
+    } */
+    .main{
+        margin-left: 0;
+    }
+    .wallimg,.noti{
+        width: 300px;
+        margin-left: 10px;
+    }
+    .wall-action{
+        font-size: 12px;
+        margin-left: 10px;
+    
+    }
+    
 }
